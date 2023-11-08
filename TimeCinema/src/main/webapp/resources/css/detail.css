@@ -201,25 +201,64 @@ main {
 }
 /* --------------------트레일러 이미지 slider 끝-------------------- */
 
-.container {
-  justify-content: center;
-  width: 100%;
-}
 
-#fot {
-  border: 1px solid white;
-  margin-top: 70px;
-  padding: 30px 0;
-  border-right: 0;
-  border-left: 0;
-  border-bottom: 0;
-}
 .info {
   margin-left: 30%;
 }
 
-.still,
-.review {
+.still {
   text-align: center;
   margin-bottom: 20px;
+}
+
+
+/*review*/
+
+.review {
+  text-align: center;
+  margin-bottom: 100px;
+  border: 1px solid yellow;
+  width: 100%;
+}
+
+
+.comment_input {
+  background-color: black;
+  width: 600px;
+  height: 100px;
+  border: 3px solid white;
+  color: white;
+}
+
+.posting_box {
+  width: 30px;
+  height: 30px;
+  display: inline;
+}
+
+
+.new_comment_set {
+  border: 1px solid white;
+  width: 650px;
+  text-align: left;
+
+}
+
+.user_id {
+  display: block;
+}
+
+
+.comments_contents {
+  display: inline-block;
+  width: 600px;
+  height: auto;
+}
+
+.comments_like_btn {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  display: inline;
+
 }
